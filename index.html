@@ -1,116 +1,96 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="Rahul Sabinkar's Personal Site">
-  <meta name="keywords" content="Portfolio, Personal Site, Resume, CV">
-  <meta name="author" content="Rahul Sabinkar">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Rahul's Portfolio</title>
-</head>
-
-<body>
-
-  <table cellspacing="20">
-    <tr>
-      <td><img src="assets/profile.png" alt="A portrait picture of Rahul Sabinkar"></td>
-      <br>
-      <td>
-        <h1>Rahul Sabinkar</h1>
-        <p><em>CS Graduate</em></p>
-        <p>
-          I am a Computer Science Graduate. I'm currently looking for Full Stack Web Developer roles
-          while polishing my skills and creating side-projects. I have immense passion about all things
-          related to tech and want to be a part of an enthusiastic work environment where I can integrate
-          and enhance my knowledge and apply my technical skills to accomplish organizational goals.
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Rahul Sabinkar" />
+    <meta name="description" content="Rahul Sabinkar's Portfolio Site" />
+    <meta
+      name="keywords"
+      content="Portfolio, Resume, CV, Web Developer, Full Stack Web Developer, Front-End Web Developer, Back-End Web Developer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rahul Sabinkar</title>
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="cloud-top" src="images/cloud.png" alt="cloud-img" />
+      <h1>I'm Rahul.</h1>
+      <h2>a <span class="pro">pro</span>grammer</h2>
+      <img class="cloud-bottom" src="images/cloud.png" alt="cloud-img" />
+      <img src="images/mountain.png" alt="mountain-img" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          class="profile-img"
+          src="images/profile.png"
+          alt="A profile picture of Rahul Sabinkar"
+        />
+        <h2>Hello.</h2>
+        <p class="bio">
+          I'm a CS Graduate who's looking for a role in Web Dev. I love reading
+          books and playing video games!
         </p>
-        <a href="contact-me.html">Contact Me</a>
-      </td>
-    </tr>
-  </table>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img
+            class="programmer-img"
+            src="images/programing.png"
+            alt="A programmer"
+          />
+          <h3>Web Development</h3>
+          <p>
+            Ever since I was a kid, my fascination towards computers knew no
+            bounds. I've always been curious and adventerous when it comes to
+            all things related to tech and that inevitably lead me to this
+            career path.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img
+            class="rubiks-cube-img"
+            src="images/rubik.png"
+            alt="A Rubik's Cube"
+          />
+          <h3>Rubik's Cube</h3>
+          <p>
+            I first solved the Rubik's Cube when I was 12 years old. Through
+            learning many algorithms and practicing, I've managed to get my
+            average solve time under 15 seconds.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you doubt I can really solve it in 15 seconds.</h3>
+        <p class="contact-me-para">
+          I can prove it okay? It's all about having memorized the algorithms,
+          just like in competitive programming!
+        </p>
+        <button class="btn">
+          <a href="mailto:rahulsabinkar4u@gmail.com">CONTACT ME</a>
+        </button>
+      </div>
+    </div>
 
-  <hr>
-
-  <h3>Education</h3>
-  <table cellspacing="10">
-    <thead align="left">
-      <th>School</th>
-      <th>Degree</th>
-      <th>Field of Study</th>
-      <th>Dates</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Sree Dattha Institute of Engineering and Science</td>
-        <td>B.Tech</td>
-        <td>CS</td>
-        <td>2018-2022</td>
-      </tr>
-      <tr>
-        <td>Narayana Junior College</td>
-        <td>Intermediate</td>
-        <td>MPC</td>
-        <td>2015-2017</td>
-      </tr>
-      <tr>
-        <td>Sister Nivedita High School</td>
-        <td>Secondary</td>
-        <td>SSC</td>
-        <td>2013-2015</td>
-      </tr>
-      <tr>
-        <td>St. Louis Grammar High School</td>
-        <td>Elementary</td>
-        <td>SSC</td>
-        <td>2002-2013</td>
-      </tr>
-    </tbody>
-    <tfoot>
-
-    </tfoot>
-  </table>
-
-  <hr>
-  <h3>Projects</h3>
-  <ul>
-    <li><strong>Organ Donation Platform Blockchain | Node.js, Web3.js [<a href="https://github.com/rahulsabinkar/organ-donation-platform">link</a>]</strong></li>
-    <p>Developed a decentralized application (dApp) platform connecting organ donor and acceptor via
-      ethereum blockchain using Web3.js Framework. Designed a landing page for general audience to pledge
-      as donors, a dashboard for IT to manage, verify and update data, register acceptors and connect them
-      with matching donors. Smart Contract is created using Solidity. Version control and all code
-      collaboration was done via github.</p>
-    <li><strong>Snakejs | Javascript, CSS, HTML [<a href="https://github.com/rahulsabinkar/snakejs">link</a>]</strong></li>
-    <p>Developed the classic snake game using Javascript. Utilized CSS Grids for the gameboard. EventListener
-      takes user input from arrow keys to control the snake. The gameloop calls relevant functions to update
-      food and draw snake at a fixed interval accomplishing the game mechanic.</p>
-  </ul>
-  <hr>
-  <h3>Technical Skills</h3>
-  <ul>
-    <li>Programming: Java, C++, C</li>
-    <li>Web Development: HTML, CSS, Javascript, Node.js, MySQL</li>
-    <li>Blockchain: Web3.js, Solidity, Truffle</li>
-    <li>Git, Data Structures and Algorithms, Linux, Cybersecurity</li>
-  </ul>
-  <hr>
-  <h3>Courses & Certificates</h3>
-  <ul>
-    <li>Introduction to Cybersecurity [<a href="https://drive.google.com/file/d/1QV5C8rK0DKfRfSmFuCQmhKBGZRNxv52C/view?usp=share_link">link</a>]</li>
-    <li>Cyber Ethics Awareness Certification [<a href="https://drive.google.com/file/d/1FIJ2CX6s8pTnnWe56DG19lSFaQMY1vwL/view?usp=sharing">link</a>]</li>
-  </ul>
-  <hr>
-  <h3>Accomplishments</h3>
-  <ul>
-    <li>Head Organizer and Mentor of AWS Cloud Certification Program 2018 at College. Helped 200+
-      students to get their first certification.</li>
-    <li>Uses and maintains a very customized fork of DWM window manager with various lightweight custom configured
-      software which altogether forms a fast, efficient and productive Desktop Environment on Linux.</li>
-    <li>Learned and mastered how to solve 3x3x3 Rubik’s Cube under an average of 15 seconds. Have been
-      speedcubing for more than 10 years.</li>
-    <li>Read more than 100 books.</li>
-  </ul>
-</body>
-
+    <div class="bottom-container">
+      <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/rahulsabinkar"
+        >LinkedIn</a>
+      <a class="footer-link" target="_blank" href="https://github.com/rahulsabinkar">Github</a>
+      <a class="footer-link" target="_blank" href="https://twitter.com/rahulsabinkar">Twitter</a>
+      <p class="copyright">© Rahul Sabinkar.</p>
+    </div>
+  </body>
 </html>
